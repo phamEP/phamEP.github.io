@@ -14,7 +14,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 $to = "epham321@gmail.com"; // Email address
 $subject = "Website Contact Form:  $name";
 $body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nPhone: $phone\n\nMessage:\n$message";
-$header = "From: noreply@epham.github.io\n"; // Email address the generated message will be from.
+$header = "From: noreply@ericphamEP.github.io\n"; // Email address the generated message will be from.
 $header .= "Reply-To: $email";	
 
 if(!mail($to, $subject, $body, $header))
