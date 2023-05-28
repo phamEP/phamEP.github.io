@@ -15,7 +15,7 @@ function typeWriter() {
     temp += txt.charAt(i)+"_";
     main.innerHTML = temp;
     i++;
-    setTimeout(typeWriter, 120);
+    setTimeout(typeWriter, 250);
   }
 }
 
