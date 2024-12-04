@@ -1,4 +1,4 @@
-# ericphamEP.github.io
+# phamEP.github.io
 My personal website.
 
-Viewable at: https://ericphamep.github.io/
+Viewable at: https://phamep.github.io/
